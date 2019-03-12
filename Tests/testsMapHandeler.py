@@ -3,14 +3,24 @@ import os
 os.chdir('..')
 from MapHandeler import MapHandeler
 
-
-def getGraphKeys( graph, end, start):
+def getGraphKeys( graph, end, start, vehicle):
     route = [end]
-    key, j = graph.findPredecesor(graph.getKey(end))
+    key, j,vehicle = graph.findPredecesor(graph.getKey(end),vehicle)
     route.append(j)
     while j != start:
-        key, j = graph.findPredecesor(key)
+        #print(vehicle)
+        key, j, vehicle = graph.findPredecesor(key,vehicle)
         route.append(j)
+    return route
+
+def getVehicles( graph, end, start, vehicle):
+    route = [vehicle]
+    key, j,vehicle = graph.findPredecesor(graph.getKey(end),vehicle)
+    route.append(vehicle)
+    while j != start:
+        #print(j)
+        key, j, vehicle = graph.findPredecesor(key,vehicle)
+        route.append(vehicle)
     return route
 
 class TestStringMethods(unittest.TestCase):
@@ -30,7 +40,7 @@ class TestStringMethods(unittest.TestCase):
         graph.solve(start, ends)
         k=0
         for end in ends:
-            route = getGraphKeys(graph,end,start)
+            route = getGraphKeys(graph,end,start,0)
             if k==0:
                 self.assertEqual([end,-26181,-26180,-26179,-26178,start],route)
             else:
@@ -46,7 +56,7 @@ class TestStringMethods(unittest.TestCase):
         graph.solve(start, ends)
         k=0
         for end in ends:
-            route = getGraphKeys(graph,end,start)
+            route = getGraphKeys(graph,end,start,0)
             if k==0:
                 self.assertEqual([end,-26179,-26178,start],route)
             else:
@@ -62,11 +72,13 @@ class TestStringMethods(unittest.TestCase):
         graph.solve(start, ends)
         k=0
         for end in ends:
-            route = getGraphKeys(graph,end,start)
+            routeCar = getGraphKeys(graph,end,start,1)
+            routeWalk = getGraphKeys(graph,end,start,0)
             if k==0:
-                self.assertEqual([end,-26181,-26180,-26179,-26178,start],route)
+                self.assertEqual([end,-26181,-26180,-26179,-26178,start],routeCar)
+                self.assertEqual([end,-26179,-26178,start],routeWalk)
             else:
-                self.assertEqual([end,start],route)
+                self.assertEqual([end,start],routeCar)
             k=k+1
 
 
@@ -80,11 +92,11 @@ class TestStringMethods(unittest.TestCase):
         graph.solve(start, ends)
         k=0
         for end in ends:
-            route = getGraphKeys(graph,end,start)
+            route = getVehicles(graph,end,start,1)
             if k==0:
-                self.assertEqual([end,start],route)
+                self.assertEqual([1,0],route)
             else:
-                self.assertEqual([end,start],route)
+                self.assertEqual([1,1],route)
             k=k+1
 
 
@@ -95,8 +107,9 @@ class TestStringMethods(unittest.TestCase):
         start = -26176
         ends = [-26182]
         graph.solve(start, ends)
-        route = getGraphKeys(graph,ends[0],start)
-        self.assertEqual([ends[0],-26181,-26180,-26179,-26178,start],route)
+        route = getVehicles(graph,ends[0],start,1)
+        self.assertEqual([1, 1, 1, 1, 0, 0], route)
+        #self.assertEqual([ends[0],-26181,-26180,-26179,-26178,start],route)
 
 
 

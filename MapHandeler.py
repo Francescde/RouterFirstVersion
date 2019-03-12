@@ -89,14 +89,14 @@ class MapHandeler():
                 CarCost1=vehicleCost(distanceTo,type,oneway==1,vehicles['Car'])
                 BRPCost1=vehicleCost(distanceTo,type,oneway==1,vehicles['BRP'])
                 AllTerrainCost1=vehicleCost(distanceTo,type,oneway==1,vehicles['4x4'])
-                print(str(points[0])+" "+str(points[1])+" "+str(walkingCost1)+" "+str(CarCost1)+" "+str(BRPCost1)+" "+str(AllTerrainCost1))
+                #print(str(points[0])+" "+str(points[1])+" "+str(walkingCost1)+" "+str(CarCost1)+" "+str(BRPCost1)+" "+str(AllTerrainCost1))
                 graph.inicializeEdge(points[1], points[0], walkingCost1,CarCost1,BRPCost1,AllTerrainCost1)
             if distanceFrom > 0:
                 walkingCost2=walkingCost(distanceFrom,negativeRmp*-1,positiveRmp*-1,type,vehicles['Foot'])
                 CarCost2=vehicleCost(distanceFrom,type,oneway==-1,vehicles['Car'])
                 BRPCost2=vehicleCost(distanceFrom,type,oneway==-1,vehicles['BRP'])
                 AllTerrainCost2=vehicleCost(distanceFrom,type,oneway==-1,vehicles['4x4'])
-                print(str(points[1])+" "+str(points[0])+" "+str(walkingCost2)+" "+str(CarCost2)+" "+str(BRPCost2)+" "+str(AllTerrainCost2))
+                #print(str(points[1])+" "+str(points[0])+" "+str(walkingCost2)+" "+str(CarCost2)+" "+str(BRPCost2)+" "+str(AllTerrainCost2))
                 graph.inicializeEdge(points[0], points[1], walkingCost2,CarCost2,BRPCost2,AllTerrainCost2)
 
         #DataFile = open("pointData.json", "w")

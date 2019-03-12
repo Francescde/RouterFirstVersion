@@ -21,7 +21,7 @@ class calculateRoute(Resource):
         graph.solve(start,ends)
         routes={}
         for end in ends:
-            routes[str(end) + "To_Position"] =graph.getRoute(end,start)
+            routes[str(end) + "To_Position"] =graph.getRoute(end,start,0)
         return routes
 
 
