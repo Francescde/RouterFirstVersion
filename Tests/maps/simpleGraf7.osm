@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.0.2">
+ <bounds minlat="54.0889580" minlon="12.2487570" maxlat="54.0913900" maxlon="12.2524800"/>
+ <node id="-29888" lat="54.0901746" lon="12.2482632" />
+ <node id="-26176" lat="54.0906309" lon="12.2441924" />
+ <node id="-26178" lat="54.0903212" lon="12.2441924" />
+ <node id="-26179" lat="54.0904222" lon="12.2441924" />
+ <node id="-26180" lat="54.0902331" lon="12.2441924" />
+ <node id="-26181" lat="54.0906213" lon="12.2441924" />
+ <node id="-26182" lat="54.0905647" lon="12.2441924" />
+ <way id="-26651" user="Masch" uid="55988" visible="true" version="5" changeset="4142606" timestamp="2010-03-16T11:47:08Z">
+  <nd ref="-29888"/>
+  <nd ref="-26176"/>
+  <tag k="highway" v="unclassified"/>
+  <tag k="name" v="Pastower Straße"/>
+  <tag k='Distance_From_-29888_To_-26176' v='2.0' />
+  <tag k='Distance_From_-26176_To_-29888' v='2.0' />
+  <tag k='Positive Ramp' v='0' />
+  <tag k='Negative Ramp' v='0' />
+ </way>
+ <way id="-26652" user="Masch" uid="55988" visible="true" version="5" changeset="4142606" timestamp="2010-03-16T11:47:08Z">
+  <nd ref="-26176"/>
+  <nd ref="-26178"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Pastower Straße"/>
+  <tag k='Distance_From_-26176_To_-26178' v='2.0' />
+  <tag k='Distance_From_-26178_To_-26176' v='2.0' />
+  <tag k='Positive Ramp' v='0' />
+  <tag k='Negative Ramp' v='0' />
+ </way>
+ <way id="-26653" user="Masch" uid="55988" visible="true" version="5" changeset="4142606" timestamp="2010-03-16T11:47:08Z">
+   <nd ref="-26178"/>
+  <nd ref="-26179"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Pastower Straße"/>
+  <tag k='Distance_From_-26178_To_-26179' v='2.0' />
+  <tag k='Distance_From_-26179_To_-26178' v='2.0' />
+  <tag k='Positive Ramp' v='0' />
+  <tag k='Negative Ramp' v='0' />
+ </way>
+ <way id="-26654" user="Masch" uid="55988" visible="true" version="5" changeset="4142606" timestamp="2010-03-16T11:47:08Z">
+  <nd ref="-26179"/>
+  <nd ref="-26180"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Pastower Straße"/>
+  <tag k='Distance_From_-26180_To_-26179' v='2.0' />
+  <tag k='Distance_From_-26179_To_-26180' v='2.0' />
+  <tag k='Positive Ramp' v='0' />
+  <tag k='Negative Ramp' v='0' />
+  <tag k='oneway' v='-1' />
+ </way>
+ <way id="-26655" user="Masch" uid="55988" visible="true" version="5" changeset="4142606" timestamp="2010-03-16T11:47:08Z">
+   <nd ref="-26180"/>
+  <nd ref="-26181"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Pastower Straße"/>
+  <tag k='Distance_From_-26180_To_-26181' v='2.0' />
+  <tag k='Distance_From_-26181_To_-26180' v='2.0' />
+  <tag k='Positive Ramp' v='0' />
+  <tag k='Negative Ramp' v='0' />
+ </way>
+ <way id="-26656" user="Masch" uid="55988" visible="true" version="5" changeset="4142606" timestamp="2010-03-16T11:47:08Z">
+   <nd ref="-26181"/>
+  <nd ref="-26182"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Pastower Straße"/>
+  <tag k='Distance_From_-26182_To_-26181' v='2.0' />
+  <tag k='Distance_From_-26181_To_-26182' v='2.0' />
+  <tag k='Positive Ramp' v='0' />
+  <tag k='Negative Ramp' v='0' />
+ </way>
+</osm>
