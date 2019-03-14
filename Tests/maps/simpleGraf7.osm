@@ -39,15 +39,15 @@
   <tag k='Negative Ramp' v='0' />
  </way>
  <way id="-26654" user="Masch" uid="55988" visible="true" version="5" changeset="4142606" timestamp="2010-03-16T11:47:08Z">
-  <nd ref="-26179"/>
   <nd ref="-26180"/>
+  <nd ref="-26179"/>
   <tag k="highway" v="residential"/>
   <tag k="name" v="Pastower Straße"/>
   <tag k='Distance_From_-26180_To_-26179' v='2.0' />
   <tag k='Distance_From_-26179_To_-26180' v='2.0' />
   <tag k='Positive Ramp' v='0' />
   <tag k='Negative Ramp' v='0' />
-  <tag k='oneway' v='-1' />
+  <tag k='oneway' v='yes' />
  </way>
  <way id="-26655" user="Masch" uid="55988" visible="true" version="5" changeset="4142606" timestamp="2010-03-16T11:47:08Z">
    <nd ref="-26180"/>

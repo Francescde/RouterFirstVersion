@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1829b0b1-c061-4957-87b5-cb4d08a423ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/RouteHandeler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MapHandeler.py" beforeDir="false" afterPath="$PROJECT_DIR$/MapHandeler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/maps/simpleGraf5.osm" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/maps/simpleGraf5.osm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/maps/simpleGraf6.osm" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/maps/simpleGraf6.osm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/maps/simpleGraf7.osm" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/maps/simpleGraf7.osm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/testsMapHandeler.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/testsMapHandeler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/index.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/router" beforeDir="false" afterPath="$PROJECT_DIR$/router" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/dijkstraListCFile.cc" beforeDir="false" afterPath="$PROJECT_DIR$/router/dijkstraListCFile.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/dijkstraListCFile.so" beforeDir="false" afterPath="$PROJECT_DIR$/router/dijkstraListCFile.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/router/router.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,37 +22,34 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/primeraVersio$Unittests_for_testsMapHandeler_TestStringMethods_test_simpleGrafJustWalking3.coverage" NAME="Unittests for testsMapHandeler.TestStringMethods.test_simpleGrafJustWalking3 Coverage Results" MODIFIED="1552339833418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
-    <SUITE FILE_PATH="coverage/primeraVersio$Unittests_for_testsMapHandeler_TestStringMethods_test_if_route_walk_is_better_walk.coverage" NAME="Unittests for testsMapHandeler.TestStringMethods.test_if_route_walk_is_better_walk Coverage Results" MODIFIED="1552408515580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
+    <SUITE FILE_PATH="coverage/primeraVersio$Unittests_for_testsMapHandeler_TestStringMethods_test_if_you_leaveTheCar_you_can_take_it_again_if_4x4_is_allowed.coverage" NAME="Unittests for testsMapHandeler.TestStringMethods.test_if_you_leaveTheCar_you_can_take_it_again_if_4x4_is_allowed Coverage Results" MODIFIED="1552497598711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
+    <SUITE FILE_PATH="coverage/primeraVersio$Unittests_for_testsMapHandeler_TestStringMethods_test_if_you_leaveTheCar_you_can_take_it_again_if_car_is_allowed.coverage" NAME="Unittests for testsMapHandeler.TestStringMethods.test_if_you_leaveTheCar_you_can_take_it_again_if_car_is_allowed Coverage Results" MODIFIED="1552497592160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
+    <SUITE FILE_PATH="coverage/primeraVersio$Unittests_for_testsMapHandeler_TestStringMethods_test_if_route_walk_is_better_walk.coverage" NAME="Unittests for testsMapHandeler.TestStringMethods.test_if_route_walk_is_better_walk Coverage Results" MODIFIED="1552497585889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
     <SUITE FILE_PATH="coverage/primeraVersio$Unittests_for_testsMapHandeler_TestStringMethods_test_simpleGrafJustWalking.coverage" NAME="Unittests for testsMapHandeler.TestStringMethods.test_simpleGrafJustWalking Coverage Results" MODIFIED="1552339825896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
-    <SUITE FILE_PATH="coverage/primeraVersio$Unittests_for_testsMapHandeler_TestStringMethods_test_readGraff.coverage" NAME="Unittests for testsMapHandeler.TestStringMethods.test_readGraff Coverage Results" MODIFIED="1552393418414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
-    <SUITE FILE_PATH="coverage/primeraVersio$Unittests_for_testsMapHandeler_TestStringMethods_test_if_sum_larger_than_direct_root_take_direct_root.coverage" NAME="Unittests for testsMapHandeler.TestStringMethods.test_if_sum_larger_than_direct_root_take_direct_root Coverage Results" MODIFIED="1552408508499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
-    <SUITE FILE_PATH="coverage/primeraVersio$Unittests_for_testsMapHandeler_TestStringMethods_test_if_route_car_is_better_take_car.coverage" NAME="Unittests for testsMapHandeler.TestStringMethods.test_if_route_car_is_better_take_car Coverage Results" MODIFIED="1552408511917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
-    <SUITE FILE_PATH="coverage/primeraVersio$Unittests_for_testsMapHandeler_TestStringMethods.coverage" NAME="Unittests for testsMapHandeler.TestStringMethods Coverage Results" MODIFIED="1552330535213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
+    <SUITE FILE_PATH="coverage/primeraVersio$Unittests_for_testsMapHandeler_TestStringMethods_test_if_you_leaveTheCar_if_you_must_pass_oneway_restricted_path2.coverage" NAME="Unittests for testsMapHandeler.TestStringMethods.test_if_you_leaveTheCar_if_you_must_pass_oneway_restricted_path2 Coverage Results" MODIFIED="1552552897316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
+    <SUITE FILE_PATH="coverage/primeraVersio$Unittests_for_testsMapHandeler_TestStringMethods_test_if_route_car_is_better_take_car.coverage" NAME="Unittests for testsMapHandeler.TestStringMethods.test_if_route_car_is_better_take_car Coverage Results" MODIFIED="1552497582779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
+    <SUITE FILE_PATH="coverage/primeraVersio$Unittests_for_testsMapHandeler_TestStringMethods_test_readGraff.coverage" NAME="Unittests for testsMapHandeler.TestStringMethods.test_readGraff Coverage Results" MODIFIED="1552553674765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
+    <SUITE FILE_PATH="coverage/primeraVersio$Unittests_for_testsMapHandeler_TestStringMethods.coverage" NAME="Unittests for testsMapHandeler.TestStringMethods Coverage Results" MODIFIED="1552429477575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
     <SUITE FILE_PATH="coverage/primeraVersio$FakeVehiclesJustWalking.coverage" NAME="FakeVehiclesJustWalking Coverage Results" MODIFIED="1552320250922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests/FakesVehicles" />
-    <SUITE FILE_PATH="coverage/primeraVersio$Unittests_for_testsMapHandeler_TestStringMethods_test_if_you_leaveTheCar_you_cant_take_it_again.coverage" NAME="Unittests for testsMapHandeler.TestStringMethods.test_if_you_leaveTheCar_you_cant_take_it_again Coverage Results" MODIFIED="1552408601789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
     <SUITE FILE_PATH="coverage/primeraVersio$Unittests_for_testsMapHandeler_TestStringMethods_test_simpleGrafJustWalking2.coverage" NAME="Unittests for testsMapHandeler.TestStringMethods.test_simpleGrafJustWalking2 Coverage Results" MODIFIED="1552339829655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
-    <SUITE FILE_PATH="coverage/primeraVersio$Unittests_for_testsMapHandeler_TestStringMethods_test_if_sum_larger_than_direct_root_take_sum_of_nodes.coverage" NAME="Unittests for testsMapHandeler.TestStringMethods.test_if_sum_larger_than_direct_root_take_sum_of_nodes Coverage Results" MODIFIED="1552408504659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
+    <SUITE FILE_PATH="coverage/primeraVersio$Unittests_for_testsMapHandeler_TestStringMethods_test_if_you_leaveTheCar_if_you_must_pass_oneway_restricted_path.coverage" NAME="Unittests for testsMapHandeler.TestStringMethods.test_if_you_leaveTheCar_if_you_must_pass_oneway_restricted_path Coverage Results" MODIFIED="1552497601399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
+    <SUITE FILE_PATH="coverage/primeraVersio$Unittests_for_testsMapHandeler_TestStringMethods_test_simpleGrafJustWalking3.coverage" NAME="Unittests for testsMapHandeler.TestStringMethods.test_simpleGrafJustWalking3 Coverage Results" MODIFIED="1552339833418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
+    <SUITE FILE_PATH="coverage/primeraVersio$Unittests_for_testsMapHandeler_TestStringMethods_test_if_sum_larger_than_direct_root_take_direct_root.coverage" NAME="Unittests for testsMapHandeler.TestStringMethods.test_if_sum_larger_than_direct_root_take_direct_root Coverage Results" MODIFIED="1552497579702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
+    <SUITE FILE_PATH="coverage/primeraVersio$Unittests_for_testsMapHandeler_TestStringMethods_test_if_you_dont_leave_Car_if_you_must_pass_oneway_opiste_restricted_path.coverage" NAME="Unittests for testsMapHandeler.TestStringMethods.test_if_you_dont_leave_Car_if_you_must_pass_oneway_opiste_restricted_path Coverage Results" MODIFIED="1552552889265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
+    <SUITE FILE_PATH="coverage/primeraVersio$Unittests_for_testsMapHandeler_TestStringMethods_test_if_you_leaveTheCar_you_cant_take_it_again.coverage" NAME="Unittests for testsMapHandeler.TestStringMethods.test_if_you_leaveTheCar_you_cant_take_it_again Coverage Results" MODIFIED="1552497589195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
+    <SUITE FILE_PATH="coverage/primeraVersio$Unittests_for_testsMapHandeler_TestStringMethods_test_if_you_leaveTheCar_you_can_take_it_again_if_BRP_is_allowed.coverage" NAME="Unittests for testsMapHandeler.TestStringMethods.test_if_you_leaveTheCar_you_can_take_it_again_if_BRP_is_allowed Coverage Results" MODIFIED="1552497595615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
+    <SUITE FILE_PATH="coverage/primeraVersio$Unittests_for_testsMapHandeler_TestStringMethods_test_if_sum_larger_than_direct_root_take_sum_of_nodes.coverage" NAME="Unittests for testsMapHandeler.TestStringMethods.test_if_sum_larger_than_direct_root_take_sum_of_nodes Coverage Results" MODIFIED="1552497576684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/testsMapHandeler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="110" column="43" selection-start-line="110" selection-start-column="43" selection-end-line="110" selection-end-column="43" />
+            <state relative-caret-position="137">
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/maps/simpleGraf5.osm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -60,19 +64,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/maps/simpleGraf3.osm">
+        <entry file="file://$PROJECT_DIR$/Tests/maps/simpleGraf6.osm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+            <state relative-caret-position="183">
+              <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/maps/connexioGRAPH2.osm">
+        <entry file="file://$PROJECT_DIR$/Tests/maps/simpleGraf5.osm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="50750" column="51" selection-start-line="50746" selection-start-column="33" selection-end-line="50750" selection-end-column="51" />
+            <state relative-caret-position="89">
+              <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -80,41 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/router/dijkstraListCFile.cc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="320" column="12" selection-start-line="320" selection-start-column="12" selection-end-line="320" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/router/dijkstraListExt.cc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="392" column="6" lean-forward="true" selection-start-line="392" selection-start-column="6" selection-end-line="392" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="23" column="72" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/router/router.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-519">
-              <caret line="44" column="39" lean-forward="true" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="202">
+              <caret line="571" column="35" selection-start-line="571" selection-start-column="35" selection-end-line="571" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -122,11 +93,56 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MapHandeler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="98" column="17" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
+            <state relative-caret-position="1200">
+              <caret line="80" column="54" lean-forward="true" selection-start-line="80" selection-start-column="54" selection-end-line="80" selection-end-column="54" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/router/router.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RouteHandeler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+              <folding>
+                <element signature="e#1#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VehiclesHandeler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="67" column="6" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -142,40 +158,40 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>v='0</find>
+      <find>MAX</find>
+      <find>vehicle</find>
+      <find>vehicles</find>
+      <find>ini</find>
       <find>graph</find>
-      <find>solve</find>
-      <find>track</find>
-      <find>nodes</find>
-      <find>highway</find>
-      <find>k='oneway' v='yes</find>
-      <find>' v='0</find>
-      <find>-42194</find>
-      <find>double</find>
-      <find>minimize_walked_distance</find>
-      <find>Distance_From_-165210_To_-165178</find>
-      <find>-165210</find>
-      <find>inicializeEdge</find>
-      <find>getKey</find>
+      <find>graph =</find>
+      <find>26178</find>
+      <find>dijkstra</find>
+      <find>v &lt; M</find>
+      <find>v &lt; V</find>
+      <find>residential</find>
+      <find>26180</find>
+      <find>oneway' v='y</find>
+      <find>one</find>
+      <find>26182</find>
+      <find>path</find>
+      <find>&lt; V</find>
+      <find>AdjList</find>
+      <find>dijk</find>
       <find>addEdge</find>
       <find>newAdjListNode</find>
-      <find>INT_MAX</find>
-      <find>Distance_From_-141878_To_-110796</find>
-      <find>MAX</find>
-      <find>weight</find>
-      <find>HeapNode</find>
-      <find>dist</find>
-      <find>dist[v])</find>
-      <find>26176</find>
-      <find>29888</find>
-      <find>newMinHeapNode</find>
+      <find>inicializeEdge</find>
+      <find>coor</find>
+      <find>-6658</find>
       <find>pred</find>
-      <find>dijk</find>
+      <find>coor'</find>
       <find>findPredecesor</find>
+      <find>findPredecesorValues</find>
+      <find>malloc</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/router" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -191,15 +207,18 @@
         <option value="$PROJECT_DIR$/Tests/maps/simpleGraf.osm" />
         <option value="$PROJECT_DIR$/Tests/maps/simpleGraf4.osm" />
         <option value="$PROJECT_DIR$/router/dijkstraListCFileMEM.cc" />
-        <option value="$PROJECT_DIR$/Tests/maps/simpleGraf5.osm" />
         <option value="$PROJECT_DIR$/.ignore" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/router/router.py" />
-        <option value="$PROJECT_DIR$/index.py" />
         <option value="$PROJECT_DIR$/Tests/maps/simpleGraf3.osm" />
-        <option value="$PROJECT_DIR$/router/dijkstraListCFile.cc" />
+        <option value="$PROJECT_DIR$/Tests/maps/simpleGraf5.osm" />
+        <option value="$PROJECT_DIR$/Tests/maps/simpleGraf6.osm" />
+        <option value="$PROJECT_DIR$/Tests/maps/simpleGraf7.osm" />
         <option value="$PROJECT_DIR$/MapHandeler.py" />
         <option value="$PROJECT_DIR$/Tests/testsMapHandeler.py" />
+        <option value="$PROJECT_DIR$/router/dijkstraListCFile.cc" />
+        <option value="$PROJECT_DIR$/router/router.py" />
+        <option value="$PROJECT_DIR$/RouteHandeler.py" />
+        <option value="$PROJECT_DIR$/index.py" />
       </list>
     </option>
   </component>
@@ -236,6 +255,12 @@
               <item name="primeraVersio" type="b2602c69:ProjectViewProjectNode" />
               <item name="primeraVersio" type="462c0819:PsiDirectoryNode" />
               <item name="Tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="primeraVersio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="primeraVersio" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+              <item name="FakesVehicles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="primeraVersio" type="b2602c69:ProjectViewProjectNode" />
@@ -282,7 +307,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for testsMapHandeler.TestStringMethods.test_if_you_leaveTheCar_you_cant_take_it_again">
+  <component name="RunManager" selected="Python tests.Unittests for testsMapHandeler.TestStringMethods.test_readGraff">
     <configuration name="Unittests for Tests.testsMapHandeler.TestStringMethods" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="primeraVersio" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -298,7 +323,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for testsMapHandeler.TestStringMethods.test_if_route_car_is_better_take_car" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for testsMapHandeler.TestStringMethods.test_if_you_dont_leave_Car_if_you_must_pass_oneway_opiste_restricted_path" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="primeraVersio" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -309,11 +334,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testsMapHandeler.TestStringMethods.test_if_route_car_is_better_take_car&quot;" />
+      <option name="_new_target" value="&quot;testsMapHandeler.TestStringMethods.test_if_you_dont_leave_Car_if_you_must_pass_oneway_opiste_restricted_path&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for testsMapHandeler.TestStringMethods.test_if_route_walk_is_better_walk" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for testsMapHandeler.TestStringMethods.test_if_you_leaveTheCar_if_you_must_pass_oneway_restricted_path" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="primeraVersio" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -324,11 +349,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testsMapHandeler.TestStringMethods.test_if_route_walk_is_better_walk&quot;" />
+      <option name="_new_target" value="&quot;testsMapHandeler.TestStringMethods.test_if_you_leaveTheCar_if_you_must_pass_oneway_restricted_path&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for testsMapHandeler.TestStringMethods.test_if_sum_larger_than_direct_root_take_direct_root" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for testsMapHandeler.TestStringMethods.test_if_you_leaveTheCar_if_you_must_pass_oneway_restricted_path2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="primeraVersio" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -339,11 +364,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testsMapHandeler.TestStringMethods.test_if_sum_larger_than_direct_root_take_direct_root&quot;" />
+      <option name="_new_target" value="&quot;testsMapHandeler.TestStringMethods.test_if_you_leaveTheCar_if_you_must_pass_oneway_restricted_path2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for testsMapHandeler.TestStringMethods.test_if_sum_larger_than_direct_root_take_sum_of_nodes" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for testsMapHandeler.TestStringMethods.test_if_you_leaveTheCar_you_can_take_it_again_if_4x4_is_allowed" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="primeraVersio" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -354,11 +379,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testsMapHandeler.TestStringMethods.test_if_sum_larger_than_direct_root_take_sum_of_nodes&quot;" />
+      <option name="_new_target" value="&quot;testsMapHandeler.TestStringMethods.test_if_you_leaveTheCar_you_can_take_it_again_if_4x4_is_allowed&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for testsMapHandeler.TestStringMethods.test_if_you_leaveTheCar_you_cant_take_it_again" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for testsMapHandeler.TestStringMethods.test_readGraff" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="primeraVersio" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -369,17 +394,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testsMapHandeler.TestStringMethods.test_if_you_leaveTheCar_you_cant_take_it_again&quot;" />
+      <option name="_new_target" value="&quot;testsMapHandeler.TestStringMethods.test_readGraff&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for testsMapHandeler.TestStringMethods.test_if_you_leaveTheCar_you_cant_take_it_again" />
-        <item itemvalue="Python tests.Unittests for testsMapHandeler.TestStringMethods.test_if_route_walk_is_better_walk" />
-        <item itemvalue="Python tests.Unittests for testsMapHandeler.TestStringMethods.test_if_route_car_is_better_take_car" />
-        <item itemvalue="Python tests.Unittests for testsMapHandeler.TestStringMethods.test_if_sum_larger_than_direct_root_take_direct_root" />
-        <item itemvalue="Python tests.Unittests for testsMapHandeler.TestStringMethods.test_if_sum_larger_than_direct_root_take_sum_of_nodes" />
+        <item itemvalue="Python tests.Unittests for testsMapHandeler.TestStringMethods.test_readGraff" />
+        <item itemvalue="Python tests.Unittests for testsMapHandeler.TestStringMethods.test_if_you_leaveTheCar_if_you_must_pass_oneway_restricted_path2" />
+        <item itemvalue="Python tests.Unittests for testsMapHandeler.TestStringMethods.test_if_you_dont_leave_Car_if_you_must_pass_oneway_opiste_restricted_path" />
+        <item itemvalue="Python tests.Unittests for testsMapHandeler.TestStringMethods.test_if_you_leaveTheCar_if_you_must_pass_oneway_restricted_path" />
+        <item itemvalue="Python tests.Unittests for testsMapHandeler.TestStringMethods.test_if_you_leaveTheCar_you_can_take_it_again_if_4x4_is_allowed" />
       </list>
     </recent_temporary>
   </component>
@@ -393,60 +418,61 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552047282927</updated>
-      <workItem from="1552047288167" duration="59657000" />
+      <workItem from="1552047288167" duration="82011000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_testsMapHandeler_TestStringMethods_test_if_route_walk_is_better_walk - 2019.03.12 at 17h 30m 38s.xml">
-      <configuration name="Unittests for testsMapHandeler.TestStringMethods.test_if_route_walk_is_better_walk" configurationId="tests" />
+    <history-entry file="Unittests_for_testsMapHandeler_TestStringMethods_test_if_you_leaveTheCar_you_can_take_it_again_if_4x4_is_allowed - 2019.03.13 at 18h 19m 58s.xml">
+      <configuration name="Unittests for testsMapHandeler.TestStringMethods.test_if_you_leaveTheCar_you_can_take_it_again_if_4x4_is_allowed" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_testsMapHandeler_TestStringMethods_test_if_route_walk_is_better_walk - 2019.03.12 at 17h 32m 11s.xml">
-      <configuration name="Unittests for testsMapHandeler.TestStringMethods.test_if_route_walk_is_better_walk" configurationId="tests" />
+    <history-entry file="Unittests_for_testsMapHandeler_TestStringMethods_test_if_you_leaveTheCar_if_you_must_pass_oneway_restricted_path - 2019.03.13 at 18h 20m 01s.xml">
+      <configuration name="Unittests for testsMapHandeler.TestStringMethods.test_if_you_leaveTheCar_if_you_must_pass_oneway_restricted_path" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_testsMapHandeler_TestStringMethods_test_if_route_walk_is_better_walk - 2019.03.12 at 17h 33m 24s.xml">
-      <configuration name="Unittests for testsMapHandeler.TestStringMethods.test_if_route_walk_is_better_walk" configurationId="tests" />
+    <history-entry file="Unittests_for_testsMapHandeler_TestStringMethods_test_if_you_leaveTheCar_if_you_must_pass_oneway_restricted_path2 - 2019.03.13 at 18h 20m 04s.xml">
+      <configuration name="Unittests for testsMapHandeler.TestStringMethods.test_if_you_leaveTheCar_if_you_must_pass_oneway_restricted_path2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_testsMapHandeler_TestStringMethods_test_if_sum_larger_than_direct_root_take_sum_of_nodes - 2019.03.12 at 17h 35m 04s.xml">
-      <configuration name="Unittests for testsMapHandeler.TestStringMethods.test_if_sum_larger_than_direct_root_take_sum_of_nodes" configurationId="tests" />
+    <history-entry file="Unittests_for_testsMapHandeler_TestStringMethods_test_if_you_dont_leave_Car_if_you_must_pass_oneway_opiste_restricted_path - 2019.03.13 at 18h 20m 08s.xml">
+      <configuration name="Unittests for testsMapHandeler.TestStringMethods.test_if_you_dont_leave_Car_if_you_must_pass_oneway_opiste_restricted_path" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_testsMapHandeler_TestStringMethods_test_if_sum_larger_than_direct_root_take_direct_root - 2019.03.12 at 17h 35m 08s.xml">
-      <configuration name="Unittests for testsMapHandeler.TestStringMethods.test_if_sum_larger_than_direct_root_take_direct_root" configurationId="tests" />
+    <history-entry file="Unittests_for_testsMapHandeler_TestStringMethods_test_if_you_dont_leave_Car_if_you_must_pass_oneway_opiste_restricted_path - 2019.03.14 at 09h 41m 29s.xml">
+      <configuration name="Unittests for testsMapHandeler.TestStringMethods.test_if_you_dont_leave_Car_if_you_must_pass_oneway_opiste_restricted_path" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_testsMapHandeler_TestStringMethods_test_if_route_car_is_better_take_car - 2019.03.12 at 17h 35m 12s.xml">
-      <configuration name="Unittests for testsMapHandeler.TestStringMethods.test_if_route_car_is_better_take_car" configurationId="tests" />
+    <history-entry file="Unittests_for_testsMapHandeler_TestStringMethods_test_if_you_leaveTheCar_if_you_must_pass_oneway_restricted_path2 - 2019.03.14 at 09h 41m 37s.xml">
+      <configuration name="Unittests for testsMapHandeler.TestStringMethods.test_if_you_leaveTheCar_if_you_must_pass_oneway_restricted_path2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_testsMapHandeler_TestStringMethods_test_if_route_walk_is_better_walk - 2019.03.12 at 17h 35m 15s.xml">
-      <configuration name="Unittests for testsMapHandeler.TestStringMethods.test_if_route_walk_is_better_walk" configurationId="tests" />
+    <history-entry file="Unittests_for_testsMapHandeler_TestStringMethods_test_readGraff - 2019.03.14 at 09h 41m 50s.xml">
+      <configuration name="Unittests for testsMapHandeler.TestStringMethods.test_readGraff" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_testsMapHandeler_TestStringMethods_test_if_you_leaveTheCar_you_cant_take_it_again - 2019.03.12 at 17h 35m 19s.xml">
-      <configuration name="Unittests for testsMapHandeler.TestStringMethods.test_if_you_leaveTheCar_you_cant_take_it_again" configurationId="tests" />
+    <history-entry file="Unittests_for_testsMapHandeler_TestStringMethods_test_readGraff - 2019.03.14 at 09h 42m 37s.xml">
+      <configuration name="Unittests for testsMapHandeler.TestStringMethods.test_readGraff" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_testsMapHandeler_TestStringMethods_test_if_you_leaveTheCar_you_cant_take_it_again - 2019.03.12 at 17h 36m 34s.xml">
-      <configuration name="Unittests for testsMapHandeler.TestStringMethods.test_if_you_leaveTheCar_you_cant_take_it_again" configurationId="tests" />
+    <history-entry file="Unittests_for_testsMapHandeler_TestStringMethods_test_readGraff - 2019.03.14 at 09h 44m 50s.xml">
+      <configuration name="Unittests for testsMapHandeler.TestStringMethods.test_readGraff" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_testsMapHandeler_TestStringMethods_test_if_you_leaveTheCar_you_cant_take_it_again - 2019.03.12 at 17h 36m 41s.xml">
-      <configuration name="Unittests for testsMapHandeler.TestStringMethods.test_if_you_leaveTheCar_you_cant_take_it_again" configurationId="tests" />
+    <history-entry file="Unittests_for_testsMapHandeler_TestStringMethods_test_readGraff - 2019.03.14 at 09h 54m 35s.xml">
+      <configuration name="Unittests for testsMapHandeler.TestStringMethods.test_readGraff" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59657000" />
+    <option name="totallyTimeSpent" value="82011000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="727" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="723" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32755905" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32646593" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32755905" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3280507" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39873418" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -505,20 +531,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/FakesVehicles/FakeVehiclesJustWalking.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/maps/simpleGraf2.osm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
           <caret line="36" column="52" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/FakesVehicles/FakeVehicles.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-696">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -543,48 +559,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VehiclesHandeler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="67" column="6" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="23" column="72" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/maps/simpleGraf3.osm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maps/connexioGRAPH2.osm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="50750" column="51" selection-start-line="50746" selection-start-column="33" selection-end-line="50750" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/maps/simpleGraf4.osm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/router/dijkstraListCFile.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="320" column="12" selection-start-line="320" selection-start-column="12" selection-end-line="320" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -595,39 +573,115 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MapHandeler.py">
+    <entry file="file://$PROJECT_DIR$/Tests/FakesVehicles/FakeVehicles.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="98" column="17" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="777">
+          <caret line="69" column="18" lean-forward="true" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/FakesVehicles/FakeVehiclesJustWalking.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/maps/simpleGraf7.osm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/maps/simpleGraf5.osm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/maps/simpleGraf6.osm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/maps/simpleGraf4.osm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VehiclesHandeler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="67" column="6" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maps/connexioGRAPH2.osm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="23513" column="29" selection-start-line="23513" selection-start-column="24" selection-end-line="23513" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/router/dijkstraListCFile.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="571" column="35" selection-start-line="571" selection-start-column="35" selection-end-line="571" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/testsMapHandeler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="110" column="43" selection-start-line="110" selection-start-column="43" selection-end-line="110" selection-end-column="43" />
+        <state relative-caret-position="137">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/maps/simpleGraf5.osm">
+    <entry file="file://$PROJECT_DIR$/MapHandeler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+        <state relative-caret-position="1200">
+          <caret line="80" column="54" lean-forward="true" selection-start-line="80" selection-start-column="54" selection-end-line="80" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/router/router.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-519">
-          <caret line="44" column="39" lean-forward="true" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+        <state relative-caret-position="191">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="16" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RouteHandeler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="e#1#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
