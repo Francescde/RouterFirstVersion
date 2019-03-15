@@ -1,18 +1,27 @@
 from flask import Flask,request
 from flask_restful import Resource, Api
+from flask_restful.utils import cors
 from RouteHandeler import RouteHandeler
+import json
+from flask.views import MethodView
+import logging
+
+logging.getLogger('flask_cors').level = logging.DEBUG
 app = Flask(__name__)
 api = Api(app)
+
 routeHandeler=RouteHandeler()
 
-class calculateRoute(Resource):
+class calculateRoute(Resource):#Resource
+
+    @cors.crossdomain(origin='*')
     def get(self):
         args = request.args
         print(args)  # For debugging
         lat = args['lat']
         lon = args['lon']
         #start=graph.getNearestNode('41.60448710003', '1.84747999968')
-        return routeHandeler.getRoutes(lat,lon)
+        return json.dumps(routeHandeler.getRoutes(lat,lon))
 
 
 api.add_resource(calculateRoute, '/calculateRoute')

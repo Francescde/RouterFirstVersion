@@ -2,7 +2,7 @@ from router.router import routerc
 import xml.etree.ElementTree as ET
 
 
-INF=99999
+INF=9999
 
 
 def walkingCost( distance, positiveRmp, negativeRmp, type, footSpeeds):
@@ -40,6 +40,7 @@ class MapHandeler():
 
     def read_graph(self,filename,numNodes,vehicles):
         graph=routerc(numNodes)
+        #INF=graph.getMaxValue();
         tree = ET.parse(filename)
         root = tree.getroot()
 
@@ -73,7 +74,7 @@ class MapHandeler():
                 if(str(tags.attrib["k"])=="oneway" ):
                     if(tags.attrib["v"]=="yes"):
                         oneway=1
-                    else:
+                    if (tags.attrib["v"] == "-1"):
                         oneway=-1
                 if(str(tags.attrib["k"])=="highway" ):
                     type['type']=tags.attrib["v"]
@@ -90,14 +91,14 @@ class MapHandeler():
                 BRPCost1=vehicleCost(distanceTo,type,oneway==1,vehicles['BRP'])
                 AllTerrainCost1=vehicleCost(distanceTo,type,oneway==1,vehicles['4x4'])
                 #print(str(points[0])+" "+str(points[1])+" "+str(walkingCost1)+" "+str(CarCost1)+" "+str(BRPCost1)+" "+str(AllTerrainCost1))
-                graph.inicializeEdge(points[1], points[0], walkingCost1,CarCost1,BRPCost1,AllTerrainCost1,positiveRmp,negativeRmp,distanceTo)
+                graph.inicializeEdge(points[0], points[1], walkingCost1,CarCost1,BRPCost1,AllTerrainCost1,positiveRmp,negativeRmp,distanceTo)
             if distanceFrom > 0:
                 walkingCost2=walkingCost(distanceFrom,negativeRmp*-1,positiveRmp*-1,type,vehicles['Foot'])
                 CarCost2=vehicleCost(distanceFrom,type,oneway==-1,vehicles['Car'])
                 BRPCost2=vehicleCost(distanceFrom,type,oneway==-1,vehicles['BRP'])
                 AllTerrainCost2=vehicleCost(distanceFrom,type,oneway==-1,vehicles['4x4'])
                 #print(str(points[1])+" "+str(points[0])+" "+str(walkingCost2)+" "+str(CarCost2)+" "+str(BRPCost2)+" "+str(AllTerrainCost2))
-                graph.inicializeEdge(points[0], points[1], walkingCost2,CarCost2,BRPCost2,AllTerrainCost2,positiveRmp,negativeRmp,distanceFrom)
+                graph.inicializeEdge(points[1], points[0], walkingCost2,CarCost2,BRPCost2,AllTerrainCost2,positiveRmp,negativeRmp,distanceFrom)
 
         #DataFile = open("pointData.json", "w")
         #DataFile.write(simplejson.dumps(graph.returnNodes(), indent=4, sort_keys=True))

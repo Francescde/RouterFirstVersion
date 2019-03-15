@@ -145,7 +145,7 @@ class TestStringMethods(unittest.TestCase):
         route = getVehicles(graph,ends[0],start,1)
         routek = getGraphKeys(graph,ends[0],start,1)
         #self.assertEqual([ends[0],-26181,-26180,-26179,-26178,start],routek)
-        self.assertEqual([1, 1, 1, 0, 2, 2], route)
+        self.assertEqual([1, 1, 1, 0, 0, 2], route)
         #self.assertEqual([ends[0],-26181,-26180,-26179,-26178,start],route)
 
 
@@ -158,7 +158,7 @@ class TestStringMethods(unittest.TestCase):
         ends = [-26182]
         graph.solve(start, ends)
         route = getVehicles(graph,ends[0],start,1)
-        self.assertEqual([1, 1, 1, 0, 3, 3], route)
+        self.assertEqual([1, 1, 1, 0, 0, 3], route)
         #self.assertEqual([ends[0],-26181,-26180,-26179,-26178,start],route)
 
 
@@ -167,12 +167,13 @@ class TestStringMethods(unittest.TestCase):
     def test_if_you_leaveTheCar_if_you_must_pass_oneway_restricted_path(self):
         from Tests.FakesVehicles.FakeVehicles import vehicles
         mapHandeler=MapHandeler()
-        graph = mapHandeler.read_graph("Tests/maps/simpleGraf6.osm", 7, vehicles)
+        graph = mapHandeler.read_graph("Tests/maps/simpleGraf7.osm", 7, vehicles)
         start = -26176
         ends = [-26182]
         graph.solve(start, ends)
         route = getVehicles(graph,ends[0],start,1)
         routek = getGraphKeys(graph,ends[0],start,1)
+
         self.assertEqual([ends[0],-26181,-26180,-26179,-26178,start],routek)
         self.assertEqual([1, 1, 1, 0, 0, 0], route)
         #self.assertEqual([ends[0],-26181,-26180,-26179,-26178,start],route)
@@ -194,12 +195,12 @@ class TestStringMethods(unittest.TestCase):
     def test_if_you_dont_leave_Car_if_you_must_pass_oneway_opiste_restricted_path(self):
         from Tests.FakesVehicles.FakeVehicles import vehicles
         mapHandeler=MapHandeler()
-        graph = mapHandeler.read_graph("Tests/maps/simpleGraf6.osm", 7, vehicles)
+        graph = mapHandeler.read_graph("Tests/maps/simpleGraf7.osm", 7, vehicles)
         start = -26182
         ends = [-26176]
         graph.solve(start, ends)
         route = getVehicles(graph,ends[0],start,1)
-        #routek = getGraphKeys(graph,ends[0],start,1)
+        routek = getGraphKeys(graph,ends[0],start,1)
         #self.assertEqual([ends[0],-26181,-26180,-26179,-26178,start],routek)
         self.assertEqual([1, 1, 1, 1, 1, 1], route)
 
