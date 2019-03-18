@@ -21,7 +21,6 @@ vehicles={
 	"primary_link": "80",
 	"tertiary_link" : "40"
 	},
-
   "4x4" : {
   	"name" : "4x4",
 	"path" : "inf",

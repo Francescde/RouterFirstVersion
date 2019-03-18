@@ -1,4 +1,4 @@
-from router.router import routerc
+from router.routerTotal import routerc
 import xml.etree.ElementTree as ET
 
 
@@ -85,6 +85,10 @@ class MapHandeler():
                 if(str(tags.attrib["k"])=="Negative Ramp" ):
                     negativeRmp=float(tags.attrib["v"])
             #['Car', '4x4', 'BRP', 'Foot']
+            if(distanceTo == INF):
+                distanceTo=graph.distance(points[0],points[1])
+            if(distanceFrom == INF):
+                distanceTo=graph.distance(points[1],points[0])
             if distanceTo > 0:
                 walkingCost1=walkingCost(distanceTo,positiveRmp,negativeRmp,type,vehicles['Foot'])
                 CarCost1=vehicleCost(distanceTo,type,oneway==1,vehicles['Car'])

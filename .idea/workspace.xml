@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1829b0b1-c061-4957-87b5-cb4d08a423ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/router/Readme.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/router/dijkstraListCFile2.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/dijkstraMultimodalTotal.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/routerTotal.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MapHandeler.py" beforeDir="false" afterPath="$PROJECT_DIR$/MapHandeler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RouteHandeler.py" beforeDir="false" afterPath="$PROJECT_DIR$/RouteHandeler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/testsMapHandeler.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/testsMapHandeler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehiclesHandeler.py" beforeDir="false" afterPath="$PROJECT_DIR$/VehiclesHandeler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/router" beforeDir="false" afterPath="$PROJECT_DIR$/router" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/router/dijkstraListCFile.cc" beforeDir="false" afterPath="$PROJECT_DIR$/router/dijkstraListCFile.cc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/router/dijkstraListCFile.so" beforeDir="false" afterPath="$PROJECT_DIR$/router/dijkstraListCFile.so" afterDir="false" />
@@ -39,63 +40,52 @@
     <SUITE FILE_PATH="coverage/primeraVersio$Unittests_for_testsMapHandeler_TestStringMethods_test_if_sum_larger_than_direct_root_take_sum_of_nodes.coverage" NAME="Unittests for testsMapHandeler.TestStringMethods.test_if_sum_larger_than_direct_root_take_sum_of_nodes Coverage Results" MODIFIED="1552620097410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/testsMapHandeler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-381">
-              <caret line="160" column="39" selection-start-line="160" selection-start-column="39" selection-end-line="160" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/maps/simpleGraf7.osm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/maps/simpleGraf6.osm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="49" column="13" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/router/dijkstraListCFile.cc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="277" column="47" selection-start-line="277" selection-start-column="47" selection-end-line="277" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/router/dijkstraListCFile2.cc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="480" column="21" selection-start-line="480" selection-start-column="21" selection-end-line="480" selection-end-column="21" />
+            <state relative-caret-position="-294">
+              <caret line="315" column="45" lean-forward="true" selection-start-line="308" selection-start-column="16" selection-end-line="315" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/router/dijkstraMultimodalTotal.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="568" column="14" selection-start-line="568" selection-start-column="8" selection-end-line="568" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/router/Readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="15">
+                <caret line="1" column="63" lean-forward="true" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MapHandeler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="100" column="56" selection-start-line="100" selection-start-column="56" selection-end-line="100" selection-end-column="56" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="23" selection-start-column="23" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -103,11 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/router/router.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="11" selection-start-column="5" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -115,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+            <state relative-caret-position="198">
+              <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -127,20 +114,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RouteHandeler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
-              <folding>
-                <element signature="e#1#38#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/router/routerTotal.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="139" column="26" selection-start-line="139" selection-start-column="26" selection-end-line="139" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pointData.json">
+        <entry file="file://$PROJECT_DIR$/VehiclesHandeler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="21047" column="10" selection-start-line="21047" selection-start-column="10" selection-end-line="21047" selection-end-column="10" />
+            <state relative-caret-position="-702">
+              <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -156,22 +149,11 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>coor'</find>
-      <find>malloc</find>
-      <find>findP</find>
-      <find>findPrede</find>
-      <find>findPred</find>
-      <find>-143102</find>
-      <find>vehicle</find>
-      <find>29888</find>
-      <find>99999</find>
-      <find>26182</find>
       <find>print</find>
       <find>dijkst</find>
       <find>dist</find>
       <find>solv</find>
       <find>fin</find>
-      <find>dijkstra</find>
       <find>dist[v][</find>
       <find>dist[src][</find>
       <find>findPredecesor</find>
@@ -179,17 +161,28 @@
       <find>one</find>
       <find>src</find>
       <find>int src</find>
-      <find>costu</find>
       <find>MAX</find>
       <find>findPredecesorValues</find>
-      <find>dijk</find>
       <find>pred</find>
       <find>di</find>
       <find>INF</find>
+      <find>distance</find>
+      <find>walkingCost</find>
+      <find>CarCost</find>
+      <find>AllTerrainCost;</find>
+      <find>cost</find>
+      <find>pred[</find>
+      <find>dijk</find>
+      <find>dijkstra</find>
+      <find>solve</find>
+      <find>printf('</find>
+      <find>pCrawl-&gt;costu</find>
+      <find>costu</find>
+      <find>printf</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/router" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -197,7 +190,6 @@
         <option value="$PROJECT_DIR$/dijkstraListCFile.cc" />
         <option value="$PROJECT_DIR$/router/README.md" />
         <option value="$PROJECT_DIR$/maps/connexioGRAPH2.osm" />
-        <option value="$PROJECT_DIR$/VehiclesHandeler.py" />
         <option value="$PROJECT_DIR$/testsMapHandeler.py" />
         <option value="$PROJECT_DIR$/Tests/FakesVehicles/FakeVehiclesJustWalking.py" />
         <option value="$PROJECT_DIR$/Tests/FakesVehicles/FakeVehicles.py" />
@@ -214,10 +206,14 @@
         <option value="$PROJECT_DIR$/index.py" />
         <option value="$PROJECT_DIR$/RouteHandeler.py" />
         <option value="$PROJECT_DIR$/router/dijkstraListCFile.cc" />
-        <option value="$PROJECT_DIR$/router/router.py" />
-        <option value="$PROJECT_DIR$/router/dijkstraListCFile2.cc" />
         <option value="$PROJECT_DIR$/Tests/testsMapHandeler.py" />
+        <option value="$PROJECT_DIR$/router/router.py" />
+        <option value="$PROJECT_DIR$/VehiclesHandeler.py" />
+        <option value="$PROJECT_DIR$/router/dijkstraListCFile2.cc" />
+        <option value="$PROJECT_DIR$/router/Readme.md" />
         <option value="$PROJECT_DIR$/MapHandeler.py" />
+        <option value="$PROJECT_DIR$/router/dijkstraMultimodalTotal.cc" />
+        <option value="$PROJECT_DIR$/router/routerTotal.py" />
       </list>
     </option>
   </component>
@@ -279,19 +275,19 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/Tests/FakesVehicles" />
-      <recent name="$PROJECT_DIR$/Tests" />
-      <recent name="$PROJECT_DIR$/router" />
-      <recent name="$PROJECT_DIR$/cfiles" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/router" />
       <recent name="$PROJECT_DIR$/Tests/maps" />
       <recent name="$PROJECT_DIR$/Tests/FakesVehicles" />
       <recent name="$PROJECT_DIR$/Tests" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Tests/FakesVehicles" />
+      <recent name="$PROJECT_DIR$/Tests" />
+      <recent name="$PROJECT_DIR$/router" />
+      <recent name="$PROJECT_DIR$/cfiles" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -417,7 +413,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552047282927</updated>
-      <workItem from="1552047288167" duration="102471000" />
+      <workItem from="1552047288167" duration="102976000" />
+      <workItem from="1552640996614" duration="10139000" />
     </task>
     <servers />
   </component>
@@ -454,21 +451,15 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102471000" />
+    <option name="totallyTimeSpent" value="113115000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" weight="0.3296355" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32646593" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3280507" />
@@ -476,11 +467,17 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32646593" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3296355" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,21 +500,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/router/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="17" selection-start-line="2" selection-end-line="2" selection-end-column="100" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitterData.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8507" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/twitterData.json" />
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/simplejson/decoder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -609,13 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VehiclesHandeler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="67" column="6" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/router/dijkstraListCFileMEM.cc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -623,64 +599,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.py">
+    <entry file="file://$PROJECT_DIR$/Tests/maps/simpleGraf7.osm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="630">
+          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/maps/simpleGraf6.osm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
+        <state relative-caret-position="735">
           <caret line="49" column="13" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pointData.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
+        <state relative-caret-position="315705">
           <caret line="21047" column="10" selection-start-line="21047" selection-start-column="10" selection-end-line="21047" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/maps/simpleGraf7.osm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/router/router.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/router/dijkstraListCFile.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="277" column="47" selection-start-line="277" selection-start-column="47" selection-end-line="277" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/router/dijkstraListCFile2.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="480" column="21" selection-start-line="480" selection-start-column="21" selection-end-line="480" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/testsMapHandeler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-381">
+        <state relative-caret-position="15">
           <caret line="160" column="39" selection-start-line="160" selection-start-column="39" selection-end-line="160" selection-end-column="39" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -688,23 +630,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RouteHandeler.py">
+    <entry file="file://$PROJECT_DIR$/router/dijkstraListCFile.cc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
-          <folding>
-            <element signature="e#1#38#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="4155">
+          <caret line="277" column="47" selection-start-line="277" selection-start-column="47" selection-end-line="277" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/router/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15">
+            <caret line="1" column="63" lean-forward="true" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VehiclesHandeler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-702">
+          <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MapHandeler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="100" column="56" selection-start-line="100" selection-start-column="56" selection-end-line="100" selection-end-column="56" />
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RouteHandeler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/router/dijkstraListCFile2.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-294">
+          <caret line="315" column="45" lean-forward="true" selection-start-line="308" selection-start-column="16" selection-end-line="315" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/router/router.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/router/dijkstraMultimodalTotal.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="568" column="14" selection-start-line="568" selection-start-column="8" selection-end-line="568" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/router/routerTotal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="139" column="26" selection-start-line="139" selection-start-column="26" selection-end-line="139" selection-end-column="26" />
         </state>
       </provider>
     </entry>
