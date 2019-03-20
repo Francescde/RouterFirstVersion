@@ -1,4 +1,5 @@
 from router.routerTotal import routerc
+from router.routerSingle import routerc as routercS
 import xml.etree.ElementTree as ET
 
 
@@ -40,6 +41,7 @@ class MapHandeler():
 
     def read_graph(self,filename,numNodes,vehicles):
         graph=routerc(numNodes)
+        graph2=routercS(numNodes)
         #INF=graph.getMaxValue();
         tree = ET.parse(filename)
         root = tree.getroot()
@@ -50,6 +52,7 @@ class MapHandeler():
             n=i.attrib
             nodeKey=int(n["id"])
             graph.addNode(nodeKey,str(n["lat"]),str(n['lon']))
+            graph2.addNode(nodeKey,str(n["lat"]),str(n['lon']))
         for i in tree_paths:
             points = []
             for point in i.iter("nd"):
@@ -96,6 +99,7 @@ class MapHandeler():
                 AllTerrainCost1=vehicleCost(distanceTo,type,oneway==1,vehicles['4x4'])
                 #print(str(points[0])+" "+str(points[1])+" "+str(walkingCost1)+" "+str(CarCost1)+" "+str(BRPCost1)+" "+str(AllTerrainCost1))
                 graph.inicializeEdge(points[0], points[1], walkingCost1,CarCost1,BRPCost1,AllTerrainCost1,positiveRmp,negativeRmp,distanceTo)
+                graph2.inicializeEdge(points[0], points[1], walkingCost1,CarCost1,BRPCost1,AllTerrainCost1,positiveRmp,negativeRmp,distanceTo)
             if distanceFrom > 0:
                 walkingCost2=walkingCost(distanceFrom,negativeRmp*-1,positiveRmp*-1,type,vehicles['Foot'])
                 CarCost2=vehicleCost(distanceFrom,type,oneway==-1,vehicles['Car'])
@@ -103,8 +107,9 @@ class MapHandeler():
                 AllTerrainCost2=vehicleCost(distanceFrom,type,oneway==-1,vehicles['4x4'])
                 #print(str(points[1])+" "+str(points[0])+" "+str(walkingCost2)+" "+str(CarCost2)+" "+str(BRPCost2)+" "+str(AllTerrainCost2))
                 graph.inicializeEdge(points[1], points[0], walkingCost2,CarCost2,BRPCost2,AllTerrainCost2,positiveRmp,negativeRmp,distanceFrom)
+                graph2.inicializeEdge(points[1], points[0], walkingCost2,CarCost2,BRPCost2,AllTerrainCost2,positiveRmp,negativeRmp,distanceFrom)
 
         #DataFile = open("pointData.json", "w")
         #DataFile.write(simplejson.dumps(graph.returnNodes(), indent=4, sort_keys=True))
         #DataFile.close()
-        return graph
+        return graph, graph2

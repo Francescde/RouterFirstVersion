@@ -26,11 +26,11 @@ vehicles={
 	"path" : "inf",
 	"residential" : "30",
 	"track" : {
-		"grade1": "30",
-		"grade2": "15",
-		"grade3": "5",
-		"grade4": "inf",
-		"grade5": "inf"
+		"grade1": "40",
+		"grade2": "25",
+		"grade3": "30",
+		"grade4": "8",
+		"grade5": "7"
 		},
 	"service" : "60",
 	"primary" : "90",

@@ -21,7 +21,7 @@ class calculateRoute(Resource):#Resource
         lat = args['lat']
         lon = args['lon']
         #start=graph.getNearestNode('41.60448710003', '1.84747999968')
-        return json.dumps(routeHandeler.getRoutes(lat,lon))
+        return json.dumps(routeHandeler.getRoutesWithMandatory(lat,lon,1))
 
 
 api.add_resource(calculateRoute, '/calculateRoute')
